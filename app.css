@@ -1,0 +1,34 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.post-body ol {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  list-style: none;
+}
+.post-body ol li {
+  margin: 0;
+  padding: 0;
+  margin-right: 5px;
+}
+.post ol li:before {
+  content: none;
+}
+
+header{
+  background-image: linear-gradient(to top, #614385, #516395);
+  /* Otros estilos opcionales */
+  width: 100%;
+  height: 150px; /* Cambia la altura según tus necesidades */
+}
+
+header h1{
+  padding-top: 65px;
+  font-size: 2em;
+}
