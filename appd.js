@@ -21,9 +21,11 @@ var saludo = document.getElementById("saludo");
 
 // Define los saludos según la franja horaria
 if (horaActual >= 0 && horaActual < 12) {
-    saludo.textContent = "Buenos días ☀";
+    saludo.innerHTML = '<i class="fas fa-sun text-warning"></i> Buenos días';
 } else if (horaActual >= 12 && horaActual < 18) {
-    saludo.textContent = "Buenas tardes 🌤";
+    saludo.innerHTML = '<i class="fas fa-cloud-sun"></i> Buenas tardes';
 } else {
-    saludo.textContent = "Buenas noches 🌙";
+    saludo.innerHTML = '<i class="fas fa-moon"></i> Buenas noches';
 }
+
+
